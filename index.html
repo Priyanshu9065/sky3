@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Love Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My Special World, Sakshi 💖</h1>
+  </header>
+
+  <!-- Love Message Section -->
+  <section id="love-message">
+    <h2>Your Love Notes 💌</h2>
+    <button onclick="showMessage()">Click to Read a Love Note</button>
+    <div id="message-box" style="display:none;">
+      <p>"Every moment with you is a moment I cherish forever. I love you!"</p>
+    </div>
+  </section>
+
+  <!-- Personalized Love Song Playlist -->
+  <section id="love-songs">
+    <h2> Special Playlist for you 🎶</h2>
+    <div class="song-container">
+      <p>Click to listen this song and Tell me kya meri yad aati hai  </p>
+      <audio controls>
+        <source src="song1.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+      <p> Song that we listen one day.....</p>
+      <audio controls>
+        <source src="song2.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+      <p> A song that reminds me of our special trip</p>
+    </div>
+  </section>
+
+  <!-- Photo Slideshow -->
+  <section id="photo-slideshow">
+    <h2>Our Memories</h2>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="photo1.jpg" alt="Memory 1">
+        <p class="caption">maja aya tha..</p>
+      </div>
+      <div class="mySlides fade">
+        <img src="photo2.jpg" alt="Memory 2">
+        <p class="caption">latest meet</p>
+      </div>
+      <div class="mySlides fade">
+        <img src="photo3.jpg" alt="Memory 3">
+        <p class="caption">mathura memories</p>
+      </div>
+      <div class="mySlides fade">
+        <img src="photo4.jpg" alt="Memory 3">
+        <p class="caption">Good vibe</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Love Compatibility Calculator -->
+  <section id="love-calculator">
+    <h2>Love Compatibility Calculator 💕</h2>
+    <input type="text" id="name1" placeholder="Enter your name">
+    <input type="text" id="name2" placeholder="Enter your partner's name">
+    <button onclick="calculateLove()">Calculate</button>
+    <p id="compatibility"></p>
+  </section>
+
+  <!-- Star Map -->
+  <section id="star-map">
+    <h2>Our Star Map 🌟</h2>
+    <p>Click below to see the stars as they were on the night of our first date.</p>
+    <button onclick="showStarMap()">Show Star Map</button>
+    <div id="star-map-container" style="display:none;">
+      <img src="star-map.webp" alt="Star Map">
+    </div>
+  </section>
+
+  <!-- Our Journey -->
+  <section id="our-journey">
+    <h2>Our Journey Together</h2>
+    <div class="journey-bar">
+      <div class="milestone">strugle to talk</div>
+      <div class="milestone">First meet</div>
+      <div class="milestone">Challenges</div>
+      <div class="milestone">Engagement loading...</div>
+    </div>
+  </section>
+
+  <!-- Daily Love Reminder -->
+  <section id="love-reminder">
+    <h2>Your Daily Love Reminder ❤️</h2>
+    <p id="reminder-text"></p>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
